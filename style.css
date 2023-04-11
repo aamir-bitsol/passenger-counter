@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5%;
+    font-size: large;
+}
+
+#increase-counter{
+    font-size: large;
+    background: gray;
+    border-radius: 10px;
+}
+
+#save-btn{
+    font-size: large;
+    background: darkcyan;
+    border-radius: 10px;
+}
+
+section{
+    position: relative;
+    left: 40%;
+    width: 20%;
+    padding-left: 2rem;
+    border: 1px solid black;
+    display: flex;
+    align-content: center;
+}
+
+#counter{
+    display: flex;
+    align-items: center;
+}
+
+#increment-btn{
+    background: darkred;
+}
